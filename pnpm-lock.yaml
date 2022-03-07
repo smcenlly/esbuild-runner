@@ -1,7 +1,7 @@
 lockfileVersion: 5.3
 
 specifiers:
-  '@release-it/conventional-changelog': 3.3.0
+  '@release-it/conventional-changelog': 4.2.0
   '@types/eslint': 7.28.0
   '@types/eslint-plugin-prettier': 3.1.0
   '@types/node': 16.7.6
@@ -37,7 +37,7 @@ dependencies:
   tslib: 2.3.1
 
 devDependencies:
-  '@release-it/conventional-changelog': 3.3.0_release-it@14.11.5
+  '@release-it/conventional-changelog': 4.2.0_release-it@14.11.5
   '@types/eslint': 7.28.0
   '@types/eslint-plugin-prettier': 3.1.0
   '@types/node': 16.7.6
@@ -797,14 +797,14 @@ packages:
       '@octokit/openapi-types': 9.7.0
     dev: true
 
-  /@release-it/conventional-changelog/3.3.0_release-it@14.11.5:
-    resolution: {integrity: sha512-pchCHf+wNpn15oj2hau4gisFKQat/01JuTzAwlGsQE83ZUBknU4dRlPA3xf5F5f3K70VVTQ3lx4/lgQvR+zxww==}
+  /@release-it/conventional-changelog/4.2.0_release-it@14.11.5:
+    resolution: {integrity: sha512-o0XF8HyrUJ7u0bqXbGfq0M87pzK9cZ1ybBwDywZvV37EB1JRUJjpw1yQRcOe1gpaeOOplucb0BXj9SKuNQGBcw==}
     engines: {node: '>=10'}
     peerDependencies:
-      release-it: ^14.11.5
+      release-it: ^14.12.1
     dependencies:
       concat-stream: 2.0.0
-      conventional-changelog: 3.1.24
+      conventional-changelog: 3.1.25
       conventional-recommended-bump: 6.1.0
       prepend-file: 2.0.0
       release-it: 14.11.5
@@ -1820,8 +1820,8 @@ packages:
       through2: 4.0.2
     dev: true
 
-  /conventional-changelog/3.1.24:
-    resolution: {integrity: sha512-ed6k8PO00UVvhExYohroVPXcOJ/K1N0/drJHx/faTH37OIZthlecuLIRX/T6uOp682CAoVoFpu+sSEaeuH6Asg==}
+  /conventional-changelog/3.1.25:
+    resolution: {integrity: sha512-ryhi3fd1mKf3fSjbLXOfK2D06YwKNic1nC9mWqybBHdObPd8KJ2vjaXZfYj1U23t+V8T8n0d7gwnc9XbIdFbyQ==}
     engines: {node: '>=10'}
     dependencies:
       conventional-changelog-angular: 5.0.12
@@ -2729,6 +2729,7 @@ packages:
     resolution: {integrity: sha512-xiqMQR4xAeHTuB9uWm+fFRcIOgKBMiOBP+eXiyT7jsgVCq1bkVygt00oASowB7EdtpOHaaPgKt812P9ab+DDKA==}
     engines: {node: ^8.16.0 || ^10.6.0 || >=11.0.0}
     os: [darwin]
+    requiresBuild: true
     dev: true
     optional: true
 
@@ -5627,6 +5628,7 @@ packages:
     resolution: {integrity: sha512-JhS3hmcVaXlp/xSo3PKY5R0JqKs5M3IV+exdLHW99qKvKivPO4Z8qbej6mte17SOPqAOVMjt/XGgWacnFSzM3g==}
     engines: {node: '>=0.8.0'}
     hasBin: true
+    requiresBuild: true
     dev: true
     optional: true
 
